@@ -1,8 +1,8 @@
-### Curso Solidity
+# Curso Solidity
 
 ## Smart Contracts y Blockchain con Solidity de la A a la Z
 
-# By SupremeBoy#2186
+### By SupremeBoy#2186
 
 <img align="left" alt="https://discord.gg/eBpmkW6e5j" width="50px" src="https://logodownload.org/wp-content/uploads/2017/11/discord-logo-2-1.png" />
 SupremeBoy#2186
