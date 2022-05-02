@@ -13,7 +13,7 @@ contract Loteria {
     address public contrato;
 
     // Numero de tokens a crear
-    uint public tokens_creados = 10000;
+    uint tokens_creados = 10000;
 
     // Constructor
     constructor() public {
@@ -58,6 +58,14 @@ contract Loteria {
 
         // Filtro para evaluar los Tokens a comprar con los Tokens disponibles
         require(_numTokens <= Balance, "Compra un numero de Tokens adecuado");
+
+        // Transferencia del Token al comprador
+        token.transfer(msg.sender, _numTokens);
+    }
+
+    // Balance de tokens en el contrato de loteria
+    function TokensDisponibles() public view returns(uint) {
+        return token.balanceOf(contrato);
     }
 
 }
