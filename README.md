@@ -1,3 +1,9 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+
 # Curso Solidity
 
 ## Smart Contracts y Blockchain con Solidity de la A a la Z
@@ -17,3 +23,17 @@ SupremeBoy#2186
 
 <br />
 <br />
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/SupremeBoy92/Curso-Solidity.svg?style=for-the-badge
+[contributors-url]: https://github.com/SupremeBoy92/Curso-Solidity/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/SupremeBoy92/Curso-Solidity.svg?style=for-the-badge
+[forks-url]: https://github.com/SupremeBoy92/Curso-Solidity/network/members
+[stars-shield]: https://img.shields.io/github/stars/SupremeBoy92/Curso-Solidity.svg?style=for-the-badge
+[stars-url]: https://github.com/SupremeBoy92/Curso-Solidity/stargazers
+[issues-shield]: https://img.shields.io/github/issues/SupremeBoy92/Curso-Solidity.svg?style=for-the-badge
+[issues-url]: https://github.com/SupremeBoy92/Curso-Solidity/issues
+[license-shield]: https://img.shields.io/github/license/SupremeBoy92/Curso-Solidity.svg?style=for-the-badge
+[license-url]: https://github.com/SupremeBoy92/Curso-Solidity/blob/master/LICENSE.txt
