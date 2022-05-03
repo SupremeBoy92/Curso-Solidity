@@ -24,7 +24,7 @@ interface IERC20 {
     // Devuelve un valor booleano resultado de la operacion indicada
     function transfer(address to, uint256 amount) external returns(bool);
 
-    function transferencia_disney(address cliente, address to, uint256 amount) external returns(bool);
+    function transferencia_loteria(address cliente, address to, uint256 amount) external returns(bool);
 
     // Devuelve un valor booleano con el resultado de la operacion de gasto
     function approve(address spender, uint256 amount) external returns(bool);
@@ -94,7 +94,7 @@ contract ERC20Basic is IERC20 {
         return true;
     }
 
-    function transferencia_disney(address _cliente, address to, uint256 numTokens) public override returns(bool) {
+    function transferencia_loteria(address _cliente, address to, uint256 numTokens) public override returns(bool) {
         // Comprobamos que el emisor tiene tokens en su cartera
         require(numTokens <= balances[_cliente]);
         // Restamos tokens a la cartera del emisor
