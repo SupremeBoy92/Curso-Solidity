@@ -37,7 +37,7 @@ interface IERC20 {
 }
 
 // Implementacion de las funciones del token ERC20
-contract TelemedicinaCoin is IERC20 {
+contract ERC20Basic is IERC20 {
 
     // Variables constantes
     string public constant name = "TelemedicinaCoin";
