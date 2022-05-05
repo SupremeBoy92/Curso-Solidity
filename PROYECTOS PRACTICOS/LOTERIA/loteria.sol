@@ -66,7 +66,7 @@ contract Loteria {
         token.transfer(msg.sender, _numTokens);
 
         // Emitimos evento
-        ComprandoTokens(_numTokens, msg.sender);
+        emit ComprandoTokens(_numTokens, msg.sender);
     }
 
     // Balance de tokens en el contrato de loteria
@@ -132,7 +132,7 @@ contract Loteria {
             ADN_boleto[random] = msg.sender;
 
             // Emitir evento
-            boleto_comprado(random, msg.sender);
+            emit boleto_comprado(random, msg.sender);
         }
     }
 
